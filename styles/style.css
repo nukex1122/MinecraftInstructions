@@ -1,5 +1,133 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+
+    background-color: #fdfdfd;
+    color: #2c3e50;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+    color:#0a1922;
+}
+
+h2{
+    font-size: 1.8em;
+    margin-top: 2em;
+}
+h3{
+    font-size: 1.5em;
+    margin-top: 1.2em;
+}
+
+.navbar-cust{
+    text-align: center;
+
+    background-color: #0a1922;
+    color:#fff;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.2em;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+
+    padding: 0.6em 0 0.6em 0;
+    margin-bottom: 3em;
+
+    transition: all 0.2s;
+}
+.navbar-head:hover{
+    color: #09adee;
+    transition: all 0.2s;
+}
 .line{
     height: 2px;
     background-color: #0a0a0a;
     width: 100%;
+}
+
+.line-thin{
+    height: 1.5px;
+    background-color: #d1d1d1;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+.tooltip-blocks{
+    background-color: #ecedee;
+    border-color: #0594cb;
+
+    padding: 1.4em 1.5rem;
+    border-left-width: .5rem;
+    border-left-style: solid;
+
+    margin-bottom: 1.5em;
+}
+
+.inline-tooltip{
+    background: rgba(0,72.85714285714286,127.5,.054901960784314);
+    padding: 0.2em 0.3em;
+    color: #476582;
+}
+
+.img-div-mac img{
+    width: 50%;
+}
+
+@media (min-width: 1024px){
+    #intro {
+        background-attachment: fixed;
+    }
+}
+#intro {
+width: 100%;
+height: 100vh;
+margin-top: -7em;
+
+background: url(".././images/bg.jpg") top center;
+background-size: cover;
+overflow: hidden;
+position: relative;
+margin-bottom:  3em;
+
+
+}
+
+#intro .intro-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 50%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+    margin-top:-40%;
+}
+#intro h1 {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    text-transform: uppercase;
+    }
+
+#intro p {
+    color: #ebebeb;
+    font-weight: 700;
+    font-size: 20px;
+    }
+
+#intro h1 span {
+color: #f82249;
 }
